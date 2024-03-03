@@ -1,3 +1,6 @@
+#this text to text feature is implemented
+# Next features will be updated soon 
+
 import tkinter as tk
 import openai
 root = tk.Tk()
@@ -16,7 +19,7 @@ def show_user():
    
 
 
-openai.api_key="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"
+openai.api_key="api_key"
 messages=[
     {"role":"system","content":"you are a kind helpful assisstant"}
 ]
