@@ -1,3 +1,7 @@
+#features includes text to tex
+#image generation
+#audio to audio
+#some functionalities like opening web pages through voice commands.these commands in jarvis python file
 import tkinter as tk
 import openai
 import replicate
@@ -28,7 +32,7 @@ def show_user():
    
 
 
-openai.api_key="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"
+openai.api_key="Enter api key"#disclosed 
 messages=[
     {"role":"system","content":"you are a kind helpful assisstant"}
 ]
