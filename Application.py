@@ -81,7 +81,7 @@ class Application:
         self.msg_entry.delete(0,"end")
 
     def gpt(self,query):
-        openai.api_key="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"
+        openai.api_key="api disclosed"
         messages=[
     {"role":"system","content":"you are a kind helpful assisstant"}
      ]
